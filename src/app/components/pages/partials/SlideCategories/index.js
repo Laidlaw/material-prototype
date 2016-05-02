@@ -19,20 +19,8 @@ import FlatButton from 'material-ui/FlatButton';
 import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
 
 import { StickyContainer, Sticky } from 'react-sticky';
+import styles from './style.css';
 
-const styles = {
-  root: {
-    display: 'flex',
-    flexWrap: 'wrap',
-    justifyContent: 'space-around',
-  },
-  gridList: {
-    overflowY: 'auto',
-    marginBottom: 24,
-  },
-  GridTile: {
-  }
-};
 
 const tilesData = [
   {

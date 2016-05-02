@@ -1,0 +1,17 @@
+article:hover {
+  div {
+    height:100%;
+  }
+}
+
+root: {
+  display: 'flex';
+  flexWrap: 'wrap';
+  justifyContent: 'space-around';
+}
+gridList: {
+  overflowY: 'auto';
+  marginBottom: 24;
+}
+GridTile: {
+}

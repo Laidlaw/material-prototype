@@ -8,7 +8,7 @@ import {
 // Here we define all our material-ui ReactComponents.
 import Master from './components/Master';
 import Home from './components/pages/Home';
-import Presentations from './components/pages/Presentations';
+import SlideCategories from './components/pages/partials/SlideCategories';
 
 import Prerequisites from './components/pages/get-started/Prerequisites';
 import Installation from './components/pages/get-started/Installation';
@@ -26,7 +26,7 @@ import GridListPage from './components/pages/components/GridList/Page';
 
 const AppRoutes = (
   <Route path="/" component={Master}>
-    <IndexRoute component={Presentations} />
+    <IndexRoute component={SlideCategories} />
     <Route path="home" component={Home} />
     <Redirect from="get-started" to="/get-started/prerequisites" />
     <Route path="get-started">

@@ -7,7 +7,7 @@ import styleResizable from 'material-ui/utils/styleResizable';
 import getMuiTheme from 'material-ui/styles/getMuiTheme';
 import {darkWhite, lightWhite, grey900} from 'material-ui/styles/colors';
 import AppNavDrawer from './AppNavDrawer';
-import FullWidthSection from './FullWidthSection';
+import FullWidthSection from './pages/partials/FullWidthSection';
 import {Toolbar, ToolbarGroup, ToolbarSeparator, ToolbarTitle} from 'material-ui/Toolbar';
 
 import { StickyContainer, Sticky } from 'react-sticky';
@@ -69,7 +69,8 @@ const Master = React.createClass({
   getStyles() {
     const styles = {
       appBar: {
-        position: 'fixed',
+        position: 'relative',
+        // backgroundColor: 'transparent',
         // Needed to overlap the examples
         zIndex: this.state.muiTheme.zIndex.appBar + 1,
         top: 0,

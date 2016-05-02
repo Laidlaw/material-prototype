@@ -1,6 +1,6 @@
 import React from 'react';
 import HomeFeature from './HomeFeature';
-import FullWidthSection from '../FullWidthSection';
+import FullWidthSection from './partials/FullWidthSection';
 import RaisedButton from 'material-ui/RaisedButton';
 import styleResizable from 'material-ui/utils/styleResizable';
 import spacing from 'material-ui/styles/spacing';
